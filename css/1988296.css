@@ -1,0 +1,299 @@
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #7C7C7C;
+}
+
+/* Header */
+
+#menu li a {
+    font-family: "Changa One", cursive;
+    color: #333333;
+}
+
+#menu li a:hover,
+#menu li.active a {
+    color: #2fA005;
+    background: none;
+}
+
+#form-search {
+    display: block;
+    width: 169px;
+    height: 26px;
+    border: 1px solid #D5D5D5;
+    padding: 4px 11px 6px;
+    box-sizing: border-box;
+    border-radius: 14px ;
+    margin: 0 10px;
+}
+
+#searchword {
+    border: none;
+    height: 20px;
+    background: white;
+    box-shadow: 0 0 0;
+    padding: 0;
+}
+
+#searchbtn {
+    border: none;
+    width: 11px;
+    background:url(../images/search_button.png) 0 0 no-repeat;
+}
+
+#social a {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 0;
+    height: 25px;
+    width: 27px;
+    cursor: pointer;
+}
+
+#social a.twitter {
+    background: url(../images/twitter.png) 0 0  no-repeat;
+}
+
+#social a.twitter:hover {
+    background: url(../images/twitter_active.png) 0 0  no-repeat;
+}
+
+#social a.fb {
+    background: url(../images/facebook.png) 0 0  no-repeat;
+}
+
+#social a.fb:hover {
+    background: url(../images/facebook_active.png) 0 0  no-repeat;
+}
+
+/* banner*/
+
+#banner {
+    background: url(../images/bg_slider.gif) center bottom repeat;
+    color: white;
+}
+
+#banner h4 {
+    font-size: 60px;
+    line-height: 60px;
+    font-family: "Changa One",cursive;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+#btn-menu {
+    display: inline-block;
+    font: 30px "Changa One",cursive;
+    line-height: 36px;
+    background: #FA97C2;
+    padding: 14px 62px;
+    border-radius: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+}
+
+#dot {
+    list-style: none;
+    padding:0;
+    text-align: center;
+    height: 19px;
+    line-height: 19px;
+}
+
+#dot li {
+    width: 19px;
+    height: 19px;
+    border-radius: 19px;
+    display: inline-block;
+    test-align: left;
+    text-indent: 9999px;
+    background: white;
+    margin: 0px 2px;
+    position: relative;
+}
+
+#dot li span {
+    border-radius: 9px;
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    top: 5px;
+    left: 5px;    
+}
+
+#dot li:active span,
+#dot li:hover span {
+    box-shadow: 0;
+    background: #73C926;
+}
+
+#menu li {
+    margin-left: 25px;
+    padding: 0;
+}
+
+
+/* main */
+h4 {
+    font-family: "Changa One", cursive;
+    font-weight: 400;
+    color: #333333;
+    font-size: 26px;
+    margin: 10px 0;
+}
+
+a.readmore {
+    text-decoration: underline;
+    color: #2FA0D5;
+}
+
+.about {
+    background: #Fa97C2;
+    color: #814E64;
+}
+
+h3 {
+    font-family: "Changa One",cursive;
+    font-weight: 400;
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.about div > img {
+    float: left;
+    margin: 20px;
+}
+
+#frm-signup {
+    border: 3px dashed #814e64;
+    border-radius: 10px;
+    padding: 20px 10px;
+    overflow: auto;
+}
+
+#frm-signup h3 {
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
+    margin:0;
+    padding-bottom: 10px;
+    color: white;
+}
+
+#frm-signup input {
+    width: 100%;
+    border:none;
+    border-radius: 10px;
+    height: 38px;
+    padding:10px;
+    box-shadow: 0 0 0;
+    margin: 6px 0;
+}
+
+#frm-signup button {
+    float: right;
+    border-radius:14px;
+    color: white;
+    background: #333333;
+    font: 22px 'Changa One', cursive;
+    text-transform: uppercase;
+    line-height: 26px;
+    padding: 10px 34px;
+}
+
+.date {
+    text-align: center;
+    background: #73C926;
+    color: white;
+    font: 30px 'Changa One', cursive;
+    line-height: 30px;
+    padding: 8px;
+    border-radius: 14px;
+    margin: 10px 0;
+}
+
+footer {
+    background: url(../images/bg.gif) 0 center repeat;
+    text-align: center;
+    padding: 20px;
+}
+
+footer li {
+    display: inline-block;
+    padding: 0 90px 15px 0;
+}
+
+footer a {
+    color: #7c7c7c;
+    text-decoration: none;
+}
+
+footer nav a,
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+footer nav a:hover,
+footer nav .active a {
+    color: #FA97C2;
+}
+
+/* about page */
+#small-banner {
+    background: url(../images/bg_slider.gif) center top repeat;
+    padding: 0.25em;
+    content: "";
+}
+
+.round-img {
+    border: none;
+    border-radius: 15px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+#testimonials .col {
+    background: url(../images/quot.png) top left no-repeat;
+    padding-left: 50px;
+}
+
+#testimonials h3 {
+    margin-left: -10px;
+}
+
+.img-rounded {
+    border-radius: 10px;
+}
+
+/* Blog page */
+
+.blog-list {
+   list-style-type: none;
+   padding-left: 0;
+}
+
+.blog-list li {
+    padding-bottom: 10px;
+    padding-left: 24px;
+    background: url(../images/marker1.png) 0 4px no-repeat;
+}
+
+
+.blog-list a {
+    color: #7c7c7c;
+    text-decoration: none;
+}
+
+.blog-list a:hover {
+    color: #73c926;
+}
+
+.blog, .clear-both{
+    clear: both;
+}
